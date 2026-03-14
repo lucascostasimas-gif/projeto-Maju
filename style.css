@@ -1,0 +1,76 @@
+section+section {
+  margin-top: 20px;
+}
+
+
+
+h1,
+h2,
+h3 {
+  color: rgb(255, 0, 191);
+  font-size: 50px;
+}
+
+.maju1 {
+  width: 500px;
+  height: 350px;
+}
+
+
+:root {
+  font-family: "Alice", serif;
+  color: rgba(233, 40, 153, 0.695);
+}
+
+.maju2,
+.maju3,
+.maju4 {
+  display: block;
+  margin: auto;
+
+  width: 300px;
+  height: 300px;
+
+}
+
+.maju {
+  text-align: center;
+}
+
+
+
+body {
+  background-image: url(assents/fundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul {
+  font-size: 20px;
+}
+
+p {
+  font-size: 45px;
+}
+
+footer {
+  text-align: center;
+
+}
+
+.fra {
+  font-size: 15px;
+}
+
+.cora {
+  height: 20px;
+  height: 20px;
+  vertical-align: bottom;
+}
+
+.insta {
+  height: 30px;
+  height: 30px;
+  display: block;
+ margin: 0 auto;
+}
