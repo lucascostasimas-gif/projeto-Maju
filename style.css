@@ -1,5 +1,47 @@
-section+section {
-  margin-top: 20px;
+body {
+  background-image: url(assents/fundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top:50px;
+
+}
+
+
+a {
+text-decoration: none;
+}
+
+.home {
+  background-color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1000;
+  padding-top: 0;
+  font-size: 25px;
+
+
+}
+h1 {
+  display: inline;
+  text-align: center;
+  width: fit-content;
+display: flex;
+margin: auto;
+
+
+
+}
+
+h1:hover {
+  background-color: rgb(255, 197, 242);
+  color: rgb(255, 0, 191);
+
+  transition: 0.9s;
+
 }
 
 
@@ -11,15 +53,26 @@ h3 {
   font-size: 50px;
 }
 
-.maju1 {
-  width: 500px;
-  height: 350px;
+section+section {
+  margin-top: 20px;
 }
+
+
+
 
 
 :root {
   font-family: "Alice", serif;
   color: rgba(233, 40, 153, 0.695);
+}
+
+.maju {
+  text-align: center;
+}
+
+.maju1 {
+  width: 500px;
+  height: 350px;
 }
 
 .maju2,
@@ -33,17 +86,14 @@ h3 {
 
 }
 
-.maju {
-  text-align: center;
+
+.scroll {
+  height: 400px;
+  overflow-y: auto;
+  border: 5px solid rgba(255, 0, 153, 0.96);
+  padding: 20px;
 }
 
-
-
-body {
-  background-image: url(assents/fundo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 ul {
   font-size: 20px;
@@ -53,24 +103,61 @@ p {
   font-size: 45px;
 }
 
-footer {
-  text-align: center;
-
-}
 
 .fra {
   font-size: 15px;
 }
 
+
+
+footer {
+  text-align: center;
+  display: block;
+}
 .cora {
   height: 20px;
   height: 20px;
   vertical-align: bottom;
 }
-
+footer:hover {
+  transform: scale(1.1);
+  box-shadow: 1.2px rgba(115, 7, 209, 0.5);
+  transition: 0.7s;
+  
+}
 .insta {
   height: 30px;
   height: 30px;
   display: block;
- margin: 0 auto;
+  margin: 0 auto;
 }
+
+.volta-topo {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: rgb(255, 0, 191);
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 999;
+  width: 60px;
+  height: 60px;
+  transition: 0.3s;
+}
+
+.volta-topo:hover {
+  background-color: rgb(255, 100, 220);
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(255, 0, 191, 0.5);
+}
+
+#link {
+  
+}
+
+
