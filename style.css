@@ -1,5 +1,5 @@
 body {
-  background-image: url(assents/fundo.jpg);
+  background-image: url(assentss/fundo1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top:50px;
@@ -156,8 +156,5 @@ footer:hover {
   box-shadow: 0 4px 10px rgba(255, 0, 191, 0.5);
 }
 
-#link {
-  
-}
 
 
